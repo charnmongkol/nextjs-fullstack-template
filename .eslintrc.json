@@ -1,3 +1,13 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next", "next/core-web-vitals", "eslint:recommended"],
+  // when use React, you don't need to import React to component
+  "globals": {
+    "React": "readonly"
+  },
+  //ignore warning unused variables
+  "rules": {
+    "no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }]
+  }
 }
+
+//$ yarn lint
