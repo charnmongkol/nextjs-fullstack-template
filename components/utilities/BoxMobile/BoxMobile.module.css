@@ -1,0 +1,31 @@
+.container {
+  height: 284px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.num {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+}
+.borderNum {
+  width: 17px;
+  height: 4px;
+  border-radius: 2.5px;
+}
+.title {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #c2c2c2;
+}
+.text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.74px;
+  text-align: left;
+}
