@@ -9,7 +9,7 @@ const Primary: React.FC<IPrimary> = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Primary Layout Example</title>
+        <title>Test Tri Petch IT Solutions</title>
       </Head>
       <main className={styles.main}>{children}</main>
     </>

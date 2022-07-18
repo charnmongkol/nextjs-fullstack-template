@@ -22,7 +22,7 @@ const BoxSectionLeft: React.FC<IBoxSectionLeft> = ({
       className={styles.flexbox}
       style={{ backgroundColor: `${bgColor}`, paddingInline: '10%' }}
     >
-      <div className={`${styles.flexboxColumn} w-6/12`}>
+      <div className={`${styles.flexboxColumn} md:w-6/12 xs:w-7/12`}>
         {/* header */}
         {header ? (
           <div className="mb-12 pt-32">
@@ -58,7 +58,7 @@ const BoxSectionLeft: React.FC<IBoxSectionLeft> = ({
           {text}
         </div>
       </div>
-      <div className="w-6/12"></div>
+      <div className="md:w-6/12 xs:w-5/12"></div>
     </div>
   );
 };
