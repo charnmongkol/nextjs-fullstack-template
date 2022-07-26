@@ -20,39 +20,43 @@ const Home: NextPageWithLayout = () => {
       </h3>
 
       <table className="shadow-lg bg-white border my-5">
-        <tr>
-          <th className="bg-blue-400 border text-left px-8 py-4">Issue</th>
-          <th className="bg-blue-400 border text-left px-8 py-4">Link</th>
-        </tr>
-        <tr>
-          <td className="border px-8 py-4">Test Page</td>
-          <td className="border px-8 py-4 text-pink-500">
-            <Link href="/about">My Result</Link>
-          </td>
-        </tr>
-        <tr>
-          <td className="border px-8 py-4">Git Repository</td>
-          <td className="border px-8 py-4 text-pink-500">
-            <a
-              href="https://github.com/charnmongkol/nextjs-fullstack-template"
-              target="__blank"
-            >
-              My souce code
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td className="border px-8 py-4">CV</td>
-          <td className="border px-8 py-4">
-            <a
-              className="text-pink-500"
-              href="https://drive.google.com/file/d/1hQ-7IQK8EetiwCqc1p8JUuyDJBSqnPJz/view"
-              target="__blank"
-            >
-              Charnmongkol Somsup
-            </a>
-          </td>
-        </tr>
+        <thead>
+          <tr>
+            <th className="bg-blue-400 border text-left px-8 py-4">Issue</th>
+            <th className="bg-blue-400 border text-left px-8 py-4">Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td className="border px-8 py-4">Test Page</td>
+            <td className="border px-8 py-4 text-pink-500">
+              <Link href="/about">My Result</Link>
+            </td>
+          </tr>
+          <tr>
+            <td className="border px-8 py-4">Git Repository</td>
+            <td className="border px-8 py-4 text-pink-500">
+              <a
+                href="https://github.com/charnmongkol/nextjs-fullstack-template"
+                target="__blank"
+              >
+                My souce code
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td className="border px-8 py-4">CV</td>
+            <td className="border px-8 py-4">
+              <a
+                className="text-pink-500"
+                href="https://drive.google.com/file/d/1hQ-7IQK8EetiwCqc1p8JUuyDJBSqnPJz/view"
+                target="__blank"
+              >
+                Charnmongkol Somsup
+              </a>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </section>
   );
